@@ -1,0 +1,31 @@
+field,description,unit,missing
+sample_id,Sample identifier (join key to spectra),-,0
+field_id,field_id,-,0
+lon,Longitude,degree (WGS84 assumed),0
+lat,Latitude,degree (WGS84 assumed),0
+date,Sampling date,YYYY-MM-DD,0
+depth,Sampling depth,0-20 cm composite (confirmed),0
+soil_moisture,Soil moisture,as recorded (fraction),2
+NO3_N,Nitrate nitrogen,as recorded,0
+NH4_N,Ammonium nitrogen,as recorded,0
+P,Phosphorus (fraction not documented),as recorded,0
+K,Potassium (fraction not documented),as recorded,0
+Ca,Calcium,as recorded,0
+Mg,Magnesium,as recorded,0
+S,Sulphur,as recorded,0
+Fe,Iron,as recorded,0
+Mn,Manganese,as recorded,0
+B,Boron,as recorded,0
+Cu,Copper,as recorded,0
+Zn,Zinc,as recorded,0
+Mo,Molybdenum,as recorded,0
+Na,Sodium,as recorded,0
+Al,Aluminium,as recorded,0
+Cl,Chloride,as recorded,0
+pH,Soil pH,unitless (extractant not documented),0
+EC,Electrical conductivity,as recorded (soil:water ratio not documented),0
+CEC,Cation exchange capacity,as recorded,0
+OM,Recorded organic matter. Organic carbon was measured by potassium dichromate with external heating; no conversion factor is applied,% (g per 100 g); reported SOM (g kg-1) = 10 x this value,0
+land_use,land_use,-,0
+sampling_method,sampling_method,-,0
+analysis_method,analysis_method,-,121

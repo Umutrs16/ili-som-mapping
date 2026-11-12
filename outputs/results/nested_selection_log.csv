@@ -1,0 +1,97 @@
+fold,held_out_group,candidate,adopted_before,reference,candidate_rmse_g_kg,reference_rmse_g_kg,delta_pct,middle_groups_improved,passes,step_passes,final_adopted,final_student,theta,note
+0,G1,E1,,E0b,10.564865489546072,13.677325618912377,-22.756350298939577,3.0,True,True,E1,ridge,"{'alpha': 0.1, 'log': False}",
+0,G1,E2,E1,E1,12.73181392178197,10.564865489546072,20.51089466666749,0.0,False,False,E1,ridge,"{'alpha': 0.1, 'log': False}",
+0,G1,E3,E1,E2,13.164877903359788,12.73181392178197,3.401431910946462,3.0,False,False,E1,ridge,"{'alpha': 0.1, 'log': False}",
+0,G1,E3,E1,E1,13.164877903359788,10.564865489546072,24.609990694026607,2.0,False,False,E1,ridge,"{'alpha': 0.1, 'log': False}",
+0,G1,E5a,E1,E2,13.354631933631765,12.73181392178197,4.891824650250798,3.0,False,False,E1,ridge,"{'alpha': 0.1, 'log': False}",
+0,G1,E5a,E1,E6a-P,13.354631933631765,12.438684215367148,7.363702642543379,3.0,False,False,E1,ridge,"{'alpha': 0.1, 'log': False}",
+0,G1,E5a,E1,E1,13.354631933631765,10.564865489546072,26.406076318209305,2.0,False,False,E1,ridge,"{'alpha': 0.1, 'log': False}",
+0,G1,E5b,E1,E3,12.72041555794493,13.164877903359788,-3.376122047447372,4.0,False,False,E1,ridge,"{'alpha': 0.1, 'log': False}",
+0,G1,E5b,E1,E6b-P,12.72041555794493,12.811083229535482,-0.7077283783585187,4.0,False,False,E1,ridge,"{'alpha': 0.1, 'log': False}",
+0,G1,E5b,E1,E1,12.72041555794493,10.564865489546072,20.40300532488346,2.0,False,False,E1,ridge,"{'alpha': 0.1, 'log': False}",
+0,G1,E4a,E1,E2,12.036817564900646,12.73181392178197,-5.458737939079561,3.0,True,False,E1,ridge,"{'alpha': 0.1, 'log': False}",
+0,G1,E4a,E1,E6a-L,12.036817564900646,11.64524867142726,3.3624777325205413,2.0,False,False,E1,ridge,"{'alpha': 0.1, 'log': False}",
+0,G1,E4a,E1,E1,12.036817564900646,10.564865489546072,13.932520738773913,1.0,False,False,E1,ridge,"{'alpha': 0.1, 'log': False}",
+0,G1,E4b,E1,E3,12.589944871994138,13.164877903359788,-4.367173289308834,5.0,False,False,E1,ridge,"{'alpha': 0.1, 'log': False}",
+0,G1,E4b,E1,E6b-L,12.589944871994138,13.067463189109688,-3.6542541593957423,5.0,False,False,E1,ridge,"{'alpha': 0.1, 'log': False}",
+0,G1,E4b,E1,E1,12.589944871994138,10.564865489546072,19.168056464626847,2.0,False,False,E1,ridge,"{'alpha': 0.1, 'log': False}",
+0,G1,E0b,,,13.677325618912377,,,,,,E1,ridge,"{'alpha': 0.1, 'log': False}","scored, not eligible after the sequence stopped"
+0,G1,E6a-L,,,11.64524867142726,,,,,,E1,ridge,"{'alpha': 0.1, 'log': False}","scored, not eligible after the sequence stopped"
+0,G1,E6a-P,,,12.438684215367148,,,,,,E1,ridge,"{'alpha': 0.1, 'log': False}","scored, not eligible after the sequence stopped"
+0,G1,E6b-L,,,13.067463189109688,,,,,,E1,ridge,"{'alpha': 0.1, 'log': False}","scored, not eligible after the sequence stopped"
+0,G1,E6b-P,,,12.811083229535482,,,,,,E1,ridge,"{'alpha': 0.1, 'log': False}","scored, not eligible after the sequence stopped"
+1,G2,E1,,E0b,10.128681056405673,14.664865960261093,-30.93233116584625,4.0,True,True,E1,ridge,"{'alpha': 0.1, 'log': False}",
+1,G2,E2,E1,E1,11.997805820624613,10.128681056405673,18.453782420533948,0.0,False,False,E1,ridge,"{'alpha': 0.1, 'log': False}",
+1,G2,E3,E1,E2,12.324559073141348,11.997805820624613,2.723441747615496,4.0,False,False,E1,ridge,"{'alpha': 0.1, 'log': False}",
+1,G2,E3,E1,E1,12.324559073141348,10.128681056405673,21.67980218260439,2.0,False,False,E1,ridge,"{'alpha': 0.1, 'log': False}",
+1,G2,E5a,E1,E2,11.798199272168722,11.997805820624613,-1.663692107041459,3.0,False,False,E1,ridge,"{'alpha': 0.1, 'log': False}",
+1,G2,E5a,E1,E6a-P,11.798199272168722,12.09101829907488,-2.421789626507831,4.0,False,False,E1,ridge,"{'alpha': 0.1, 'log': False}",
+1,G2,E5a,E1,E1,11.798199272168722,10.128681056405673,16.48307619191145,3.0,False,False,E1,ridge,"{'alpha': 0.1, 'log': False}",
+1,G2,E5b,E1,E3,12.1267522081867,12.324559073141348,-1.6049812717902845,1.0,False,False,E1,ridge,"{'alpha': 0.1, 'log': False}",
+1,G2,E5b,E1,E6b-P,12.1267522081867,12.228490152595267,-0.8319747012019651,3.0,False,False,E1,ridge,"{'alpha': 0.1, 'log': False}",
+1,G2,E5b,E1,E1,12.1267522081867,10.128681056405673,19.726864146022137,2.0,False,False,E1,ridge,"{'alpha': 0.1, 'log': False}",
+1,G2,E4a,E1,E2,11.663109228575642,11.997805820624613,-2.7896483494808444,3.0,False,False,E1,ridge,"{'alpha': 0.1, 'log': False}",
+1,G2,E4a,E1,E6a-L,11.663109228575642,11.924701232764079,-2.1936986016026117,2.0,False,False,E1,ridge,"{'alpha': 0.1, 'log': False}",
+1,G2,E4a,E1,E1,11.663109228575642,10.128681056405673,15.149338434341896,3.0,False,False,E1,ridge,"{'alpha': 0.1, 'log': False}",
+1,G2,E4b,E1,E3,11.956219123514387,12.324559073141348,-2.9886663485566567,1.0,False,False,E1,ridge,"{'alpha': 0.1, 'log': False}",
+1,G2,E4b,E1,E6b-L,11.956219123514387,12.21892030114471,-2.149954097054807,2.0,False,False,E1,ridge,"{'alpha': 0.1, 'log': False}",
+1,G2,E4b,E1,E1,11.956219123514387,10.128681056405673,18.043198881782587,1.0,False,False,E1,ridge,"{'alpha': 0.1, 'log': False}",
+1,G2,E0b,,,14.664865960261093,,,,,,E1,ridge,"{'alpha': 0.1, 'log': False}","scored, not eligible after the sequence stopped"
+1,G2,E6a-L,,,11.924701232764079,,,,,,E1,ridge,"{'alpha': 0.1, 'log': False}","scored, not eligible after the sequence stopped"
+1,G2,E6a-P,,,12.09101829907488,,,,,,E1,ridge,"{'alpha': 0.1, 'log': False}","scored, not eligible after the sequence stopped"
+1,G2,E6b-L,,,12.21892030114471,,,,,,E1,ridge,"{'alpha': 0.1, 'log': False}","scored, not eligible after the sequence stopped"
+1,G2,E6b-P,,,12.228490152595267,,,,,,E1,ridge,"{'alpha': 0.1, 'log': False}","scored, not eligible after the sequence stopped"
+2,G3,E1,,E0b,9.933338129025056,12.232063062349802,-18.792618396484606,2.0,False,False,E1,ridge,"{'alpha': 0.1, 'log': False}",
+2,G3,E0b,,,12.232063062349802,,,,,,E1,ridge,"{'alpha': 0.1, 'log': False}","scored, not eligible after the sequence stopped"
+2,G3,E2,,,10.524347947601786,,,,,,E1,ridge,"{'alpha': 0.1, 'log': False}","scored, not eligible after the sequence stopped"
+2,G3,E3,,,11.360235518966292,,,,,,E1,ridge,"{'alpha': 0.1, 'log': False}","scored, not eligible after the sequence stopped"
+2,G3,E5a,,,10.811571590728029,,,,,,E1,ridge,"{'alpha': 0.1, 'log': False}","scored, not eligible after the sequence stopped"
+2,G3,E5b,,,11.141745599728317,,,,,,E1,ridge,"{'alpha': 0.1, 'log': False}","scored, not eligible after the sequence stopped"
+2,G3,E4a,,,10.376604722730695,,,,,,E1,ridge,"{'alpha': 0.1, 'log': False}","scored, not eligible after the sequence stopped"
+2,G3,E4b,,,11.261742764581534,,,,,,E1,ridge,"{'alpha': 0.1, 'log': False}","scored, not eligible after the sequence stopped"
+2,G3,E6a-L,,,10.1290595353818,,,,,,E1,ridge,"{'alpha': 0.1, 'log': False}","scored, not eligible after the sequence stopped"
+2,G3,E6a-P,,,9.724017265913716,,,,,,E1,ridge,"{'alpha': 0.1, 'log': False}","scored, not eligible after the sequence stopped"
+2,G3,E6b-L,,,11.256647968938873,,,,,,E1,ridge,"{'alpha': 0.1, 'log': False}","scored, not eligible after the sequence stopped"
+2,G3,E6b-P,,,11.419844284141574,,,,,,E1,ridge,"{'alpha': 0.1, 'log': False}","scored, not eligible after the sequence stopped"
+3,G4,E1,,E0b,7.543554115759522,11.548490123826866,-34.67930409192067,4.0,True,True,E1,ridge,"{'alpha': 0.1, 'log': True}",
+3,G4,E2,E1,E1,8.453297426169042,7.543554115759522,12.059876504484013,2.0,False,False,E1,ridge,"{'alpha': 0.1, 'log': True}",
+3,G4,E3,E1,E2,8.607146838169056,8.453297426169042,1.8199928884998107,4.0,False,False,E1,ridge,"{'alpha': 0.1, 'log': True}",
+3,G4,E3,E1,E1,8.607146838169056,7.543554115759522,14.099358287727304,4.0,False,False,E1,ridge,"{'alpha': 0.1, 'log': True}",
+3,G4,E5a,E1,E2,9.718574946884036,8.453297426169042,14.967857593630264,4.0,False,False,E1,ridge,"{'alpha': 0.1, 'log': True}",
+3,G4,E5a,E1,E6a-P,9.718574946884036,8.727784371532719,11.352143146237248,4.0,False,False,E1,ridge,"{'alpha': 0.1, 'log': True}",
+3,G4,E5a,E1,E1,9.718574946884036,7.543554115759522,28.832839239273135,3.0,False,False,E1,ridge,"{'alpha': 0.1, 'log': True}",
+3,G4,E5b,E1,E3,8.791397661859394,8.607146838169056,2.1406724801447785,2.0,False,False,E1,ridge,"{'alpha': 0.1, 'log': True}",
+3,G4,E5b,E1,E6b-P,8.791397661859394,8.578822189098139,2.477909765181896,1.0,False,False,E1,ridge,"{'alpha': 0.1, 'log': True}",
+3,G4,E5b,E1,E1,8.791397661859394,7.543554115759522,16.541851850614474,3.0,False,False,E1,ridge,"{'alpha': 0.1, 'log': True}",
+3,G4,E4a,E1,E2,9.427423261734408,8.453297426169042,11.523619558797794,2.0,False,False,E1,ridge,"{'alpha': 0.1, 'log': True}",
+3,G4,E4a,E1,E6a-L,9.427423261734408,8.426607883286868,11.876847627294174,2.0,False,False,E1,ridge,"{'alpha': 0.1, 'log': True}",
+3,G4,E4a,E1,E1,9.427423261734408,7.543554115759522,24.973230350919383,2.0,False,False,E1,ridge,"{'alpha': 0.1, 'log': True}",
+3,G4,E4b,E1,E3,8.687181741480941,8.607146838169056,0.9298656664826765,2.0,False,False,E1,ridge,"{'alpha': 0.1, 'log': True}",
+3,G4,E4b,E1,E6b-L,8.687181741480941,8.619049144455168,0.7904885548727147,1.0,False,False,E1,ridge,"{'alpha': 0.1, 'log': True}",
+3,G4,E4b,E1,E1,8.687181741480941,7.543554115759522,15.160329046121944,3.0,False,False,E1,ridge,"{'alpha': 0.1, 'log': True}",
+3,G4,E0b,,,11.548490123826866,,,,,,E1,ridge,"{'alpha': 0.1, 'log': True}","scored, not eligible after the sequence stopped"
+3,G4,E6a-L,,,8.426607883286868,,,,,,E1,ridge,"{'alpha': 0.1, 'log': True}","scored, not eligible after the sequence stopped"
+3,G4,E6a-P,,,8.727784371532719,,,,,,E1,ridge,"{'alpha': 0.1, 'log': True}","scored, not eligible after the sequence stopped"
+3,G4,E6b-L,,,8.619049144455168,,,,,,E1,ridge,"{'alpha': 0.1, 'log': True}","scored, not eligible after the sequence stopped"
+3,G4,E6b-P,,,8.578822189098139,,,,,,E1,ridge,"{'alpha': 0.1, 'log': True}","scored, not eligible after the sequence stopped"
+4,G5,E1,,E0b,9.077614661756426,9.674956691185848,-6.174105461098522,3.0,True,True,E1,ridge,"{'alpha': 0.1, 'log': True}",
+4,G5,E2,E1,E1,9.742814788843566,9.077614661756426,7.327917650983773,2.0,False,False,E1,ridge,"{'alpha': 0.1, 'log': True}",
+4,G5,E3,E1,E2,9.548687342893658,9.742814788843566,-1.992519104152557,4.0,False,False,E1,ridge,"{'alpha': 0.1, 'log': True}",
+4,G5,E3,E1,E1,9.548687342893658,9.077614661756426,5.189388387698801,3.0,False,False,E1,ridge,"{'alpha': 0.1, 'log': True}",
+4,G5,E5a,E1,E2,9.736710122732614,9.742814788843566,-0.0626581356954592,4.0,False,False,E1,ridge,"{'alpha': 0.1, 'log': True}",
+4,G5,E5a,E1,E6a-P,9.736710122732614,9.686935321303004,0.5138343529573319,4.0,False,False,E1,ridge,"{'alpha': 0.1, 'log': True}",
+4,G5,E5a,E1,E1,9.736710122732614,9.077614661756426,7.260667978702906,2.0,False,False,E1,ridge,"{'alpha': 0.1, 'log': True}",
+4,G5,E5b,E1,E3,9.415635473531392,9.548687342893658,-1.3934048166451385,4.0,False,False,E1,ridge,"{'alpha': 0.1, 'log': True}",
+4,G5,E5b,E1,E6b-P,9.415635473531392,9.442291087317372,-0.28230027584918993,4.0,False,False,E1,ridge,"{'alpha': 0.1, 'log': True}",
+4,G5,E5b,E1,E1,9.415635473531392,9.077614661756426,3.723674383305031,3.0,False,False,E1,ridge,"{'alpha': 0.1, 'log': True}",
+4,G5,E4a,E1,E2,9.645915601305358,9.742814788843566,-0.9945707645922508,4.0,False,False,E1,ridge,"{'alpha': 0.1, 'log': True}",
+4,G5,E4a,E1,E6a-L,9.645915601305358,9.738656613525391,-0.9522977952753031,4.0,False,False,E1,ridge,"{'alpha': 0.1, 'log': True}",
+4,G5,E4a,E1,E1,9.645915601305358,9.077614661756426,6.260465559781436,2.0,False,False,E1,ridge,"{'alpha': 0.1, 'log': True}",
+4,G5,E4b,E1,E3,9.527577650604776,9.548687342893658,-0.22107428519575478,5.0,False,False,E1,ridge,"{'alpha': 0.1, 'log': True}",
+4,G5,E4b,E1,E6b-L,9.527577650604776,9.452533760976568,0.7939023707909554,1.0,False,False,E1,ridge,"{'alpha': 0.1, 'log': True}",
+4,G5,E4b,E1,E1,9.527577650604776,9.077614661756426,4.956841699218906,3.0,False,False,E1,ridge,"{'alpha': 0.1, 'log': True}",
+4,G5,E0b,,,9.674956691185848,,,,,,E1,ridge,"{'alpha': 0.1, 'log': True}","scored, not eligible after the sequence stopped"
+4,G5,E6a-L,,,9.738656613525391,,,,,,E1,ridge,"{'alpha': 0.1, 'log': True}","scored, not eligible after the sequence stopped"
+4,G5,E6a-P,,,9.686935321303004,,,,,,E1,ridge,"{'alpha': 0.1, 'log': True}","scored, not eligible after the sequence stopped"
+4,G5,E6b-L,,,9.452533760976568,,,,,,E1,ridge,"{'alpha': 0.1, 'log': True}","scored, not eligible after the sequence stopped"
+4,G5,E6b-P,,,9.442291087317372,,,,,,E1,ridge,"{'alpha': 0.1, 'log': True}","scored, not eligible after the sequence stopped"

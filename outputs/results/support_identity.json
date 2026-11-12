@@ -1,0 +1,16 @@
+{
+  "crs": "EPSG:32644",
+  "crs_transform": [
+    20,
+    0,
+    0,
+    0,
+    -20,
+    0
+  ],
+  "buffer_m": 10,
+  "reducer": "ee.Reducer.mean (area-weighted default)",
+  "max_abs_diff_centres": 0.0,
+  "max_abs_diff_samples": 465.0599999986589,
+  "neighbour_step": 1
+}

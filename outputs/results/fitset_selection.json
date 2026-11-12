@@ -1,0 +1,173 @@
+{
+  "n_fit": 86,
+  "n_cal": 28,
+  "adopted": "E1",
+  "student": "ridge",
+  "theta": {
+    "alpha": 0.1,
+    "log": true
+  },
+  "scores_g_kg": {
+    "E0b": 11.197324955941628,
+    "E1": 10.547601956499404,
+    "E2": 12.00807800070538,
+    "E3": 11.280606121088557,
+    "E5a": 10.688289943031341,
+    "E5b": 10.720807181027288,
+    "E4a": 10.66721443760532,
+    "E4b": 10.942505466938552,
+    "E6a-L": 11.976797761703576,
+    "E6a-P": 11.829063012345744,
+    "E6b-L": 11.3092258818841,
+    "E6b-P": 11.431666366026427
+  },
+  "steps": {
+    "steps": [
+      {
+        "candidate": "E1",
+        "current": null,
+        "passes": true,
+        "checks": [
+          {
+            "reference": "E0b",
+            "delta_pct": -5.802484093287497,
+            "groups_improved": 3,
+            "passes": true
+          }
+        ]
+      },
+      {
+        "candidate": "E2",
+        "current": "E1",
+        "passes": false,
+        "checks": [
+          {
+            "reference": "E1",
+            "delta_pct": 13.84652217849418,
+            "groups_improved": 1,
+            "passes": false
+          }
+        ]
+      },
+      {
+        "candidate": "E3",
+        "current": "E1",
+        "passes": false,
+        "checks": [
+          {
+            "reference": "E2",
+            "delta_pct": -6.058187493236556,
+            "groups_improved": 4,
+            "passes": true
+          },
+          {
+            "reference": "E1",
+            "delta_pct": 6.9494864103918585,
+            "groups_improved": 3,
+            "passes": false
+          }
+        ]
+      },
+      {
+        "candidate": "E5a",
+        "current": "E1",
+        "passes": false,
+        "checks": [
+          {
+            "reference": "E2",
+            "delta_pct": -10.990835149442823,
+            "groups_improved": 4,
+            "passes": true
+          },
+          {
+            "reference": "E6a-P",
+            "delta_pct": -9.643815982075687,
+            "groups_improved": 4,
+            "passes": true
+          },
+          {
+            "reference": "E1",
+            "delta_pct": 1.3338386024820181,
+            "groups_improved": 2,
+            "passes": false
+          }
+        ]
+      },
+      {
+        "candidate": "E5b",
+        "current": "E1",
+        "passes": false,
+        "checks": [
+          {
+            "reference": "E3",
+            "delta_pct": -4.962489905704192,
+            "groups_improved": 3,
+            "passes": false
+          },
+          {
+            "reference": "E6b-P",
+            "delta_pct": -6.218333900224115,
+            "groups_improved": 3,
+            "passes": true
+          },
+          {
+            "reference": "E1",
+            "delta_pct": 1.6421289430736952,
+            "groups_improved": 3,
+            "passes": false
+          }
+        ]
+      },
+      {
+        "candidate": "E4a",
+        "current": "E1",
+        "passes": false,
+        "checks": [
+          {
+            "reference": "E2",
+            "delta_pct": -11.166346213118317,
+            "groups_improved": 4,
+            "passes": true
+          },
+          {
+            "reference": "E6a-L",
+            "delta_pct": -10.93433612351471,
+            "groups_improved": 4,
+            "passes": true
+          },
+          {
+            "reference": "E1",
+            "delta_pct": 1.134025360448998,
+            "groups_improved": 2,
+            "passes": false
+          }
+        ]
+      },
+      {
+        "candidate": "E4b",
+        "current": "E1",
+        "passes": false,
+        "checks": [
+          {
+            "reference": "E3",
+            "delta_pct": -2.9971851735691835,
+            "groups_improved": 3,
+            "passes": false
+          },
+          {
+            "reference": "E6b-L",
+            "delta_pct": -3.242665932890998,
+            "groups_improved": 3,
+            "passes": false
+          },
+          {
+            "reference": "E1",
+            "delta_pct": 3.744012260491214,
+            "groups_improved": 2,
+            "passes": false
+          }
+        ]
+      }
+    ]
+  }
+}

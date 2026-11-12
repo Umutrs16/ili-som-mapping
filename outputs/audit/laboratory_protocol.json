@@ -1,0 +1,16 @@
+{
+  "depth_cm": "0-20",
+  "field": "five-point composite; bagged, numbered and sealed; sample-centre location recorded",
+  "preparation": "visible impurities removed; air-dried indoors in a ventilated place; ground; 0.15 mm sieve",
+  "carbon_method": "potassium dichromate volumetric method with external heating",
+  "recorded_column": "OM, percent (g per 100 g), confirmed by the data provider as organic matter",
+  "conversion_applied": null,
+  "reporting": "SOM (g kg-1) = 10 x recorded percent",
+  "spectrometer": "SR-8800 portable spectroradiometer",
+  "spectra": "dark room; white-panel calibration before measurement; five scans; arithmetic mean; 350-2500 nm at 1 nm; reflectance in percent",
+  "still_unconfirmed": [
+    "pH method",
+    "EC method and units",
+    "whether moisture is gravimetric or volumetric"
+  ]
+}

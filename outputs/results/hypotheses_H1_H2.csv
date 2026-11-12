@@ -1,0 +1,7 @@
+student,H1_E4a,H1_E5a,H1_E4b,H1_E5b,H2_a,H2_b,E3_vs_E2
+ridge,True,False,False,False,False,False,True
+pls,True,False,False,False,False,False,True
+krr,False,False,False,False,False,False,False
+cat,True,True,False,False,False,False,False
+rf,True,True,False,False,False,False,False
+tabpfn,False,False,False,False,True,False,True

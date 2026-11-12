@@ -1,0 +1,307 @@
+{
+  "variants": {
+    "main_s20_buffer": {
+      "scale": 20,
+      "support": "buffer",
+      "n_rows": 121,
+      "n_cols": 105,
+      "seconds": 73.7
+    },
+    "main_s20_center": {
+      "scale": 20,
+      "support": "center",
+      "n_rows": 121,
+      "n_cols": 105,
+      "seconds": 100.2
+    },
+    "s10_buffer": {
+      "groups": [
+        "opt",
+        "veg",
+        "sar",
+        "ter",
+        "clim",
+        "ae"
+      ],
+      "scale": 10,
+      "support": "buffer",
+      "n_rows": 121,
+      "n_cols": 92,
+      "seconds": 58.0
+    },
+    "s30_buffer": {
+      "groups": [
+        "opt",
+        "veg",
+        "sar",
+        "ter",
+        "clim",
+        "ae"
+      ],
+      "opt_native10": true,
+      "scale": 30,
+      "support": "buffer",
+      "n_rows": 121,
+      "n_cols": 92,
+      "seconds": 101.9
+    },
+    "ndvi020": {
+      "ndvi_max": 0.2,
+      "groups": [
+        "opt",
+        "qa"
+      ],
+      "scale": 20,
+      "support": "buffer",
+      "n_rows": 121,
+      "n_cols": 21,
+      "seconds": 135.5
+    },
+    "ndvi030": {
+      "ndvi_max": 0.3,
+      "groups": [
+        "opt",
+        "qa"
+      ],
+      "scale": 20,
+      "support": "buffer",
+      "n_rows": 121,
+      "n_cols": 21,
+      "seconds": 77.0
+    },
+    "nbr2": {
+      "nbr2_max": 0.075,
+      "groups": [
+        "opt",
+        "qa"
+      ],
+      "scale": 20,
+      "support": "buffer",
+      "n_rows": 121,
+      "n_cols": 21,
+      "seconds": 112.3
+    },
+    "medoid": {
+      "method": "medoid",
+      "groups": [
+        "opt"
+      ],
+      "scale": 20,
+      "support": "buffer",
+      "n_rows": 121,
+      "n_cols": 13,
+      "seconds": 119.4
+    },
+    "p90": {
+      "method": "p90",
+      "groups": [
+        "opt"
+      ],
+      "scale": 20,
+      "support": "buffer",
+      "n_rows": 121,
+      "n_cols": 13,
+      "seconds": 27.8
+    },
+    "ae2025": {
+      "ae_year": 2025,
+      "groups": [
+        "ae"
+      ],
+      "scale": 20,
+      "support": "buffer",
+      "n_rows": 121,
+      "n_cols": 64,
+      "seconds": 3.2
+    },
+    "c10": {
+      "groups": [
+        "opt"
+      ],
+      "opt_native10": true,
+      "scale": 20,
+      "support": "buffer",
+      "n_rows": 121,
+      "n_cols": 13,
+      "seconds": 64.5
+    }
+  },
+  "feature_groups": {
+    "opt": [
+      "B2",
+      "B3",
+      "B4",
+      "B5",
+      "B6",
+      "B7",
+      "B8",
+      "B8A",
+      "B11",
+      "B12",
+      "BSI",
+      "NBR2",
+      "bare_n_log"
+    ],
+    "veg": [
+      "NDVI_p95",
+      "NDVI_mean",
+      "NDVI_amp"
+    ],
+    "sar": [
+      "VV_med",
+      "VH_med",
+      "VVmVH_med",
+      "VV_iqr",
+      "VH_iqr"
+    ],
+    "ter": [
+      "elev",
+      "slope",
+      "northness",
+      "eastness",
+      "TPI"
+    ],
+    "clim": [
+      "MAT",
+      "MAP"
+    ],
+    "ae": [
+      "AE00",
+      "AE01",
+      "AE02",
+      "AE03",
+      "AE04",
+      "AE05",
+      "AE06",
+      "AE07",
+      "AE08",
+      "AE09",
+      "AE10",
+      "AE11",
+      "AE12",
+      "AE13",
+      "AE14",
+      "AE15",
+      "AE16",
+      "AE17",
+      "AE18",
+      "AE19",
+      "AE20",
+      "AE21",
+      "AE22",
+      "AE23",
+      "AE24",
+      "AE25",
+      "AE26",
+      "AE27",
+      "AE28",
+      "AE29",
+      "AE30",
+      "AE31",
+      "AE32",
+      "AE33",
+      "AE34",
+      "AE35",
+      "AE36",
+      "AE37",
+      "AE38",
+      "AE39",
+      "AE40",
+      "AE41",
+      "AE42",
+      "AE43",
+      "AE44",
+      "AE45",
+      "AE46",
+      "AE47",
+      "AE48",
+      "AE49",
+      "AE50",
+      "AE51",
+      "AE52",
+      "AE53",
+      "AE54",
+      "AE55",
+      "AE56",
+      "AE57",
+      "AE58",
+      "AE59",
+      "AE60",
+      "AE61",
+      "AE62",
+      "AE63"
+    ],
+    "sg": [
+      "SG_SOC",
+      "SG_clay"
+    ],
+    "qa": [
+      "bare_n",
+      "bare_span",
+      "clear_n",
+      "n_S2A",
+      "n_S2B",
+      "n_S2C",
+      "s1_n",
+      "s1_angle"
+    ],
+    "mask": [
+      "wc_class",
+      "dw_crop_prob",
+      "dw_label_mode"
+    ]
+  },
+  "gee_ids": {
+    "s2": "COPERNICUS/S2_SR_HARMONIZED",
+    "cs": "GOOGLE/CLOUD_SCORE_PLUS/V1/S2_HARMONIZED",
+    "s1": "COPERNICUS/S1_GRD",
+    "dem": "COPERNICUS/DEM/GLO30_2024_1",
+    "ae": "GOOGLE/SATELLITE_EMBEDDING/V1/ANNUAL",
+    "dw": "GOOGLE/DYNAMICWORLD/V1",
+    "wc": "ESA/WorldCover/v200",
+    "era5": "ECMWF/ERA5_LAND/MONTHLY_AGGR",
+    "sg_soc": "projects/soilgrids-isric/soc_mean",
+    "sg_clay": "projects/soilgrids-isric/clay_mean"
+  },
+  "windows": {
+    "s2": [
+      "2023-01-01",
+      "2026-04-05"
+    ],
+    "bare_months": [
+      3,
+      4,
+      5,
+      9,
+      10,
+      11
+    ],
+    "veg_year": 2025,
+    "s1": [
+      "2023-01-01",
+      "2026-04-05"
+    ],
+    "climate_years": [
+      2016,
+      2025
+    ],
+    "ae_main": 2024
+  },
+  "thresholds": {
+    "cs_cdf_min": 0.6,
+    "ndvi_max": 0.25,
+    "mndwi_max": 0.0,
+    "min_bare_obs": 3,
+    "scl_exclude": [
+      0,
+      1,
+      3,
+      6,
+      8,
+      9,
+      10,
+      11
+    ],
+    "s1_ref_angle": 39.0
+  }
+}
