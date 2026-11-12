@@ -75,6 +75,11 @@ def stability():
            "frac_above_colour50": float(np.mean(om * F > 50)),
            "n_AC": int(np.isin(a, ["A", "C"]).sum()),
            "ac_changed": float(np.mean((a != b) & np.isin(a, ["A", "C"]))),
+           "ac_changed_denominator": "class A or C transitions divided by all predictable nodes",
+           "ac_changed_within_AC": float(((a != b) & np.isin(a, ["A", "C"])).sum()
+                                         / np.isin(a, ["A", "C"]).sum()),
+           "ac_changed_within_AC_denominator":
+               "class A or C transitions divided by nodes that were class A or C before refitting",
            "a_to_c": int(((a == "A") & (b == "C")).sum()),
            "c_to_a": int(((a == "C") & (b == "A")).sum()),
            "n_A": int((a == "A").sum()), "n_C": int((a == "C").sum())}

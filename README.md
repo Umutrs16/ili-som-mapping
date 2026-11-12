@@ -33,11 +33,13 @@ The manuscript and the scripts that write it are not in this repository.
 
 Counts in these files: 121 samples; spatial groups from west to east 24, 35, 12, 28 and 22; split 86/28/7; absolute-score coverage 105/121 overall and 9/22 in the eastern group; 427 of 811 initially low-SOM nodes cross 15 g kg−1 when the model is refitted on all samples with the applicability flags held fixed.
 
+Group codes `outer_group`, `test_group` and `cal_group` use 0–4 for G1–G5. Concentration units, and the two denominators of `ac_changed`, are in `outputs/results/RESULT_UNITS.md`. The submission snapshot is the tag `v2026.11.12`.
+
 The 121 laboratory spectra and measured soil parameters are not in this repository. They are available from the corresponding author. Result tables that originally carried the measured SOM keep the predictions, groups and scores, but not the measured values.
 
 ## Not redistributed
 
-Public spectral libraries (OSSL v1.2, including ICRAF–ISRIC and LUCAS) and Sentinel, climate, terrain and embedding covariates remain at the sources named in the paper. The Open Soil Spectral Library file used locally is larger than GitHub's file limit. TabPFN v2 weights are used under the Prior Labs License 1.1 and are not included; the checkpoint SHA-256 is stated in the paper. Repeating the Earth Engine extraction requires access to the project named in `src/config.py`.
+The original Sentinel, climate, terrain and embedding raster products, and the public spectral libraries (OSSL v1.2, including ICRAF–ISRIC and LUCAS), remain at the sources named in the paper. This repository does include the point covariate tables already extracted on the 20 m grid (`data/external/gee/`). The Open Soil Spectral Library file used locally is larger than GitHub's file limit. TabPFN v2 weights are used under the Prior Labs License 1.1 and are not included; the checkpoint SHA-256 is stated in the paper. Repeating the Earth Engine extraction requires access to the project named in `config.py`.
 
 ## Software
 
